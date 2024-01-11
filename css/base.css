@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* noto sans kr */
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200;300;400;500;600;700;800&display=swap');
+
+/* noto serif */
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200;300;400;500;600;700;800&family=Noto+Serif:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+/* noto serif display */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300;400;500;600;700&display=swap');
+
+/* noto serif light300 regular400 medium 500 semibold600 bold 700 
+
+noto serif display ) light 300 / regular 400
+*/
+
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Noto Serif', serif; */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #222;
+  font-size: 14px; font-weight: 400;
+}

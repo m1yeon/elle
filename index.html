@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+  <title>엘르코리아ㅣELLE KOREA</title>
+  <!-- 1. 초기화 -->
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+
+  <!-- 2. base서식_font -->
+  <link rel="stylesheet" href="./css/base.css" type="text/css">
+
+  <!-- 3. pc 서식 -->
+  <link rel="stylesheet" href="./css/pc.css" type="text/css">
+
+  <!-- 4. TABLET 서식 -->
+  <link rel="stylesheet" href="./css/tablet.css" type="text/css">
+
+  <!-- 5. MOBILE 서식 -->
+  <link rel="stylesheet" href="./css/mobile.css" type="text/css">
+
+
+
+  <!-- 폰트 어썸 링크 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" type="text/css">
+</head>
+<body>
+<!-- 헤더영억 -->
+<header>
+  <div class="header_wrapper">
+    <input type="checkbox" id="menu">
+
+    <!-- header_mid -->
+    <div class="header_mid_wrapper">
+      <div class="header_mid">
+        <h1><a href="index.html" title="메인페이지 바로가기">
+          <!-- <img src="./images/main_logo_black.png" alt="메인 로고"> -->
+        </a></h1>
+
+        <div class="header_mid_left">
+          <p class="hml_txt01">Fashion Magazine</p>
+          <P class="hml_txt02">Get Beauty Tips, Fashion Trends</P>
+          <a href="signup.html" title="회원가입 페이지 바로가기" class="btn01 sign_btn">구독하기</a>
+        </div>
+
+        <input type="checkbox" id="search_btn">
+        <label for="search_btn" class="search"><img src="./images/ic_search_black.png" alt="검색 아이콘"></label>
+        <a href="login.html" title="로그인 페이지 바로가기" class="btn01 login_btn">로그인</a>
+      </div>
+    </div>
+
+    <!-- header_top -->
+    <div class="header_top">
+      <p id="date_info">2024년 01월 01일 월요일</p>
+      <img src="./images/ic_snow.png" alt="날씨이미지" class="w_img">
+      <span class="w_txt">0&#186;C&nbsp;ㅣ</span>
+      <select name="language" id="lan">
+        <option value="한국어">한국어</option>
+        <option value="English">English</option>
+      </select>
+    </div>
+
+    <!-- header_bottom -->
+    <div class="header_bottom_wrapper">
+      <div class="header_bottom">
+        <label for="menu" class="menu_btn"><img src="./images/ic_menu_black.png" alt="메뉴 아이콘"></label>
+        <nav class="h_gnb">
+          <ul>
+            <li><a href="#" title="fashion 페이지 바로가기">FASHION</a></li>
+            <li><a href="#" title="beauty 페이지 바로가기">BEAUTY</a></li>
+            <li><a href="#" title="love&life 페이지 바로가기">LOVE & LIFE</a></li>
+            <li><a href="#" title="culture 페이지 바로가기">CULTURE</a></li>
+            <li><a href="#" title="social 페이지 바로가기">SOCIAL</a></li>
+            <li><a href="#" title="elle voice 페이지 바로가기">ELLE voice</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="lnb_wrap">
+      <div class="lnb_login">
+        <a href="login.html" class="u_img">
+          <img src="./images/ic_user_img.png" alt="user_img">
+        </a>
+        <a href="login.html" class="l_login">
+          <span class="login_t01">로그인</span>
+          <span class="login_t02">로그인 하시고 더 많은 정보를 읽어보세요 :)</span>
+        </a>
+      </div>
+
+      <nav class="lnb">
+        <label for="menu" class="c_btn">
+          <img src="./images/ic_close_white.png" alt="닫기 아이콘">
+        </label>
+        <br><br><br>
+        <ul>
+          <li><a href="./fashion.html" title="패션 카테고리 바로가기">FASHION <img src="./images/ic_plus_white.png" alt="더보기 아이콘"></a>
+            <ul class="sub">
+              <li><a href="#" title="서브 페이지 바로가기">패션트렌드</a></li>
+              <li><a href="#" title="서브 페이지 바로가기">패션아이템</a></li>
+              <li><a href="#" title="서브 페이지 바로가기">셀럽스타일</a></li>
+              <li><a href="#" title="서브 페이지 바로가기">패션 뉴스</a></li>
+              <li><a href="#" title="서브 페이지 바로가기">패션 화보</a></li>
+            </ul>
+          </li>
+
+          <li><a href="./beauty.html" title="beauty 카테고리 바로가기">BEAUTY <img src="./images/ic_plus_white.png" alt="더보기 아이콘"></a>
+            <ul class="sub">
+              <li><a href="#" title="서브 페이지 바로가기">뷰티트렌드</a></li>
+              <li><a href="#" title="서브 페이지 바로가기">뷰티아이템</a></li>
+              <li><a href="#" title="서브 페이지 바로가기">뷰티 팁</a></li>
+              <li><a href="#" title="서브 페이지 바로가기">건강</a></li>
+            </ul>
+          </li>
+
+          <li><a href="./lovelife.html" title="love&life 카테고리 바로가기">LOVE & LIFE <img src="./images/ic_plus_white.png" alt="더보기 아이콘"></a>
+            <ul class="sub">
+              <li><a href="#" title="서브 페이지 바로가기">여행</a></li>
+              <li><a href="#" title="서브 페이지 바로가기">푸드</a></li>
+              <li><a href="#" title="서브 페이지 바로가기">리빙</a></li>
+              <li><a href="#" title="서브 페이지 바로가기">펫</a></li>
+              <li><a href="#" title="서브 페이지 바로가기">LOVE</a></li>
+            </ul>
+          </li>
+
+          <li><a href="./culture.html" title="culture 카테고리 바로가기">CULTURE <img src="./images/ic_plus_white.png" alt="더보기 아이콘"></a>
+            <ul class="sub">
+              <li><a href="#" title="서브 페이지 바로가기">셀럽뉴스</a></li>
+              <li><a href="#" title="서브 페이지 바로가기">음악</a></li>
+              <li><a href="#" title="서브 페이지 바로가기">아트 · 전시</a></li>
+              <li><a href="#" title="서브 페이지 바로가기">무비 · 티비</a></li>
+            </ul>
+          </li>
+
+          <li><a href="./social.html" title="social 카테고리 바로가기">SOCIAL <img src="./images/ic_plus_white.png" alt="더보기 아이콘"></a>
+            <ul class="sub">
+              <li><a href="#" title="서브 페이지 바로가기">사회</a></li>
+              <li><a href="#" title="서브 페이지 바로가기">커리어팁</a></li>
+              <li><a href="#" title="서브 페이지 바로가기">멘토</a></li>
+            </ul>
+          </li>
+
+          <li><a href="./voice.html" title="엘르 보이스 바로가기">ELLE voice</a></li>
+        </ul>  
+      </nav>
+
+      <div class="lnb_bottom">
+        <span class="lnb_txt01">Fashion Magazine
+          <span class="lnb_txt02">Get Beauty Tips, Fashion Trends</span>
+        </span>
+
+        <select name="language" id="l_lan">
+          <option value="한국어">한국어</option>
+          <option value="English">English</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- 메인영역 -->
+<main>
+  <div class="main_wrapper">
+    <!-- 1. 메인 배너_이미지 혹은 영상으로 수정 필요 -->
+    <section class="main_banner">
+      <a href="#" title="main banner">
+        <img src="./images/Union.png" alt="">
+      </a>
+
+      <div class="mb_ban">
+        <video muted antoplay loop>
+          <source src="./images/main_ban_video.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+
+    <!-- 2. Hot Topics -->
+    <section>
+      <h2>Hot Topics</h2>
+
+      <div class="title01">
+        <h2>Hot Topics</h2>
+        <button class="left_btn">
+          <img src="./images/ic_left_white.png" alt="왼쪽 버튼">
+        </button>
+        <button class="right_btn">
+          <img src="./images/ic_right_white.png" alt="오른쪽 버튼">
+        </button>
+      </div>
+
+      <div class="news_wrapper">
+        <ul class="news hot">
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="hot topics1" class="aimg">
+                <img src="./images/hot01.jpg" alt="hot01">
+              </a>
+            </div>
+
+            <div class="txt_box">
+              <a href="#" title="패션뉴스" class="n_txt01">패션뉴스</a>
+              <a href="#" title="hot topics1" class="n_txt02">2023 엘르, FLASH BACK!</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="hot topics2" class="aimg">
+                <img src="./images/hot02.jpg" alt="hot01">
+              </a>
+            </div>
+
+            <div class="txt_box">
+              <a href="#" title="무비&티비" class="n_txt01">무비&티비</a>
+              <a href="##" title="hot topics2" class="n_txt02">브리저튼'시즌3, 기다리고 있나요?</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="hot topics3" class="aimg">
+                <img src="./images/hot03.jpg" alt="hot01">
+              </a>
+            </div>
+
+            <div class="txt_box">
+              <a href="#" title="패션뉴스" class="n_txt01">패션뉴스</a>
+              <a href="#" title="hot topics3" class="n_txt02">해외에서 슈퍼푸드로 각광받는 우리나라 뿌리채소</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="hot topics4" class="aimg">
+                <img src="./images/hot04.jpg" alt="hot01">
+              </a>
+            </div>
+
+            <div class="txt_box">
+              <a href="#" title="패션뉴스" class="n_txt01">패션뉴스</a>
+              <a href="#" title="hot topics4" class="n_txt02">줄리아 로버츠가 보여준 회색 스타킹의 조용한 매력</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="hot topics5" class="aimg">
+                <img src="./images/pc_hot01.jpg" alt="hot01">
+              </a>
+            </div>
+
+            <div class="txt_box">
+              <a href="#" title="패션뉴스" class="n_txt01">패션뉴스</a>
+              <a href="#" title="hot topics5" class="n_txt02">hot topics5</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="hot topics6" class="aimg">
+                <img src="./images/pc_hot02.jpg" alt="hot01">
+              </a>
+            </div>
+
+            <div class="txt_box">
+              <a href="#" title="무비&티비" class="n_txt01">무비&티비</a>
+              <a href="##" title="hot topics6" class="n_txt02">hot topics6</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="hot topics7" class="aimg">
+                <img src="./images/pc_hot03.jpg" alt="hot01">
+              </a>
+            </div>
+
+            <div class="txt_box">
+              <a href="#" title="패션뉴스" class="n_txt01">패션뉴스</a>
+              <a href="#" title="hot topics7" class="n_txt02">hot topics7</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="hot topics5" class="aimg">
+                <img src="./images/pc_hot04.jpg" alt="hot01">
+              </a>
+            </div>
+
+            <div class="txt_box">
+              <a href="#" title="패션뉴스" class="n_txt01">패션뉴스</a>
+              <a href="#" title="hot topics5" class="n_txt02">hot topics8</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 3. Elle Voice -->
+    <section>
+      <h2>Elle Voice</h2>
+
+      <div class="title01">
+        <h2>Elle Voice</h2>
+        <span class="left_btn">
+          <img src="./images/ic_left_white.png" alt="왼쪽 버튼">
+        </span>
+        <span class="right_btn">
+          <img src="./images/ic_right_white.png" alt="오른쪽 버튼">
+        </span>
+      </div>
+
+      <div class="voice_list">
+        <ul>
+          <li class="list01">
+            <img src="./images/pc_voice01.png" alt="엘르보이스1">
+            <div class="voice_info">
+              <p class="v_txt01">시작은 사랑</p>
+              <p class="v_txt02">by 000</p>
+              <p class="v_txt03">우리 모두의 이야기의 시작에는 사랑이 존재한다.<br>소설가 성해나가 질문을 던지게 된 이유</p>
+    
+              <div class="v_info_box">
+                <p class="box_title">Listen In Audio</p>
+                <div class="controls">
+                  <i class="fa-solid fa-play"></i> <span id="timestamp">0:00 </span> 
+                  <input type="range" id="progress" value="10" min="0" max="100" step="1">
+                </div>
+              </div>
+              
+              <div class="v_info_box">
+                <p class="box_title">Discription</p>
+                <p class="box_d">근래 친구들에게 무용한 질문을 자주 던진다. 장례식에서 틀고 싶은 곡은 무언지, 강한 애착을 갖는 대상은 무언지,
+                조어 중 마음에 드는 단어가 있다면 그 이유는 무언지, 슬그머니 물어보고 그것을 화두 삼아 대화를 이어가는 것이다.
+                한 때는 고단함, 오르지 않는 주식, 지지부진한 연애, MBTI와 정치 이야기를 섞으며 대화를 이어갔지만, 그것이한 때는 고단함, 오르지 않는 주식, 지지부진한 연애, MBTI와 정치 이야기를 섞으며 대화를 이어갔지만, 그것이</p>
+              </div>
+  
+              <div class="voice_btn">
+                <p>회원가입 및 로그인을 하시면 전체 페이지를 읽어 볼 수 있어요 :)</p>
+                <a href="login.html">로그인 &nbsp;<img src="./images/ic_arrow_up_right.png" alt="ic_a_u_r"></a>
+              </div>
+            </div>
+          </li>
+  
+          <li class="list01">
+            <img src="./images/pc_voice02.jpg" alt="엘르보이스1">
+            <div class="voice_info">
+              <p class="v_txt01">지구가 태양을 한 바퀴 도는 시간 </p>
+              <p class="v_txt02">by 000</p>
+              <p class="v_txt03">1년 365일, 지구가 태양을 한 바퀴 도는 시간</p>
+    
+              <div class="v_info_box">
+                <p class="box_title">Listen In Audio</p>
+                <div class="controls">
+                  <i class="fa-solid fa-play"></i> <span id="timestamp">00:00 </span>
+                  <input type="range" id="progress" value="10" min="0" max="100" step="1">
+                </div>
+              </div>
+              
+              <div class="v_info_box">
+                <p class="box_title">Discription</p>
+                <p>누구나 새해를 맞이하는 의식이 있을 것이다. 새 다이어리를 사는 사람도 있을 테고, 신년 운세를 보는 사람도, 헬스클럽 이용권을 끊는 사람도 있겠지. 풍요와 기대가 공기 중에 잔잔히 떠돌고, 오늘의 실수도 내일이 되면 전부 용서될 것 같은 넉넉한 세밑. 그러나 온 세계가 낙관으로 가득 찬 이 시기에 나는 공연히 울적해진다.</p>
+              </div>
+  
+              <div class="voice_btn">
+                <p>회원가입 및 로그인을 하시면 전체 페이지를 읽어 볼 수 있어요 :)</p>
+                <a href="login.html">로그인 &nbsp;<img src="./images/ic_arrow_up_right.png" alt="ic_a_u_r"></a>
+              </div>
+            </div>
+          </li>
+  
+          <li class="list01">
+            <img src="./images/pc_voice03.jpg" alt="엘르보이스1">
+            <div class="voice_info">
+              <p class="v_txt01">오로지 빛을 따라서 한 여행</p>
+              <p class="v_txt02">by 000</p>
+              <p class="v_txt03">어떤 여행을 할 것인지. 빛과 낭만의 도시로...</p>
+    
+              <div class="v_info_box">
+                <p class="box_title">Listen In Audio</p>
+                <div class="controls">
+                  <i class="fa-solid fa-play"></i> <span id="timestamp">00:00 </span> 
+                  <input type="range" id="progress" value="10" min="0" max="100" step="1">
+                </div>
+              </div>
+              
+              <div class="v_info_box">
+                <p class="box_title">Discription</p>
+                <p>연초 연남동에 놀러 갔다가 심심풀이로 본 타로 사장님은 내가 뽑은 마지막 두 장의 카드를 보자마자 무릎을 쳤다. “자, 너무 노력하지 말기. 올해는 아무 생각 없이 빛을 따라가봐요. 이 그림처럼 꽃을 보고 햇빛을 즐기라고요! 아직 젊잖아. 오케이?” 올해는 어쩌면 하는 일마다 타율이 10%도 안 될까? </p>
+              </div>
+  
+              <div class="voice_btn">
+                <p>회원가입 및 로그인을 하시면 전체 페이지를 읽어 볼 수 있어요 :)</p>
+                <a href="login.html">로그인 &nbsp;<img src="./images/ic_arrow_up_right.png" alt="ic_a_u_r"></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- 4. Fashion -->
+    <section class="fashion_wrap">
+      <h2>Fashion</h2>
+
+      <div class="title02">
+        <h2>Fashion</h2>
+        <a href="fashion.html" title="뷰티 카테고리 바로가기" class="more">더보기 <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+
+      <div class="news_wrapper">
+        <ul class="news fashion">
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="fashion1" class="aimg">
+                <img src="./images/pc_fashion01.jpg" alt="fashion1">
+              </a>
+            </div>
+  
+            <div class="txt_box">
+              <a href="#" title="패션아이템" class="n_txt01">패션아이템</a>
+              <a href="#" title="fashion1" class="n_txt02">제니의 런던 여행 패션에도 등장! 트루퍼 햇 스타일링 모음.zip!</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="fashion2" class="aimg">
+                <img src="./images/pc_fashion02.jpg" alt="fashion1">
+              </a>
+            </div>
+  
+            <div class="txt_box">
+              <a href="#" title="패션아이템" class="n_txt01">패션아이템</a>
+              <a href="#" title="fashion2" class="n_txt02">막스 마라의 스톡홀름 여정</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="fashion3" class="aimg">
+                <img src="./images/pc_fashion03.jpg" alt="fashion3">
+              </a>
+            </div>
+  
+            <div class="txt_box">
+              <a href="#" title="패션화보" class="n_txt01">패션화보</a>
+              <a href="#" title="fashion3" class="n_txt02">파티 후 맞이하는 느린 오후</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+              <p class="n_txt04">글리터 디테일의 풀오버와 팬츠, 블랙 참 이어링, 스니커즈 펜던트 네크리스는 모두 Chanel.</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="fashion4" class="aimg">
+                <img src="./images/pc_fashion04.jpg" alt="fashion4">
+              </a>
+            </div>
+  
+            <div class="txt_box">
+              <a href="#" title="패션아이템" class="n_txt01">패션아이템</a>
+              <a href="#" title="fashion4" class="n_txt02">막스 마라의 스톡홀름 여정</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+              <p class="n_txt04">스톡홀름에서 열린 막스 마라의 리조트 컬렉션은 동화 같은 미드소마 페스티벌과 낭만주의 건축양식 그리고 여성의 진정한 삶을 담았다.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+      <ul class="news letter fashion_r">
+        <li>
+          <div class="img_box">
+            <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+            <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+            <div class="shadow_box"></div>
+            <a href="##" title="lovelife1" class="aimg">
+              <img src="./images/pc_fashion05.jpg" alt="lovelife1">
+            </a>
+          </div>
+
+          <div class="txt_box02">
+            <a href="#" title="셀러브리티 스타일" class="l_txt01">셀러브리티 스타일</a>
+            <span class="l_txt02">20XX.XX.XX &#124; by 엘르코리아</span>
+            <a href="#" title="lovelife1" class="l_txt03">눈도장 찍어두는, 2024 아이코닉 백</a>
+          </div>
+        </li>
+      </ul>  
+    </section>
+
+    <!-- 5. Beauty -->
+    <section>
+      <h2>Beauty</h2>
+      <div class="title02">
+        <h2>Beauty</h2>
+        <a href="beauty.html" title="뷰티 카테고리 바로가기" class="more">더보기 <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+
+      <div class="news_wrapper">
+        <ul class="news beauty">
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="beauty1" class="aimg">
+                <img src="./images/pc_beauty01.jpg" alt="beauty1">
+              </a>
+            </div>
+  
+            <div class="txt_box">
+              <a href="#" title="건강" class="n_txt01">건강</a>
+              <a href="#" title="beauty1" class="n_txt02">건강미 대표 제시! 놀라운 힙업 비결은 이것? #스타다이어트</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="beauty2" class="aimg">
+                <img src="./images/pc_beauty02.jpg" alt="beauty1">
+              </a>
+            </div>
+  
+            <div class="txt_box">
+              <a href="#" title="뷰티트렌드" class="n_txt01">뷰티트렌드</a>
+              <a href="#" title="beauty2" class="n_txt02">아름다움을 창조하는 남자들</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="beauty1" class="aimg">
+                <img src="./images/pc_beauty03.jpg" alt="beauty1">
+              </a>
+            </div>
+  
+            <div class="txt_box">
+              <a href="#" title="뷰티아이템" class="n_txt01">뷰티아이템</a>
+              <a href="#" title="beauty1" class="n_txt02">겨울엔 오일</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="beauty4" class="aimg">
+                <img src="./images/pc_beauty04.jpg" alt="beauty1">
+              </a>
+            </div>
+  
+            <div class="txt_box">
+              <a href="#" title="건강" class="n_txt01">건강</a>
+              <a href="#" title="beauty4" class="n_txt02">눈처럼 하얀 겨울엔 볼 빨간 메이크업 #스트로베리걸</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 6. Love -->
+    <section class="love_wrap">
+      <h2>Love & Life</h2>
+      <div class="title02">
+        <h2>Love & Life</h2>
+        <a href="lovelife.html" title="뷰티 카테고리 바로가기" class="more">더보기 <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+
+      <div class="news_wrapper">
+        <ul class="news love letter">
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="lovelife1" class="aimg">
+                <img src="./images/pc_love01.jpg" alt="lovelife1">
+              </a>
+            </div>
+
+            <div class="txt_box02">
+              <a href="#" title="리빙" class="l_txt01">리빙</a>
+              <span class="l_txt02">20XX.XX.XX &#124; by 엘르코리아</span>
+              <a href="#" title="lovelife1" class="l_txt03">일본 가나가와현 15평 아파트에 사는 카호의 집 풍경</a>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="lovelife2" class="aimg">
+                <img src="./images/pc_love02.jpg" alt="lovelife2">
+              </a>
+            </div>
+
+            <div class="txt_box02">
+              <a href="#" title="리빙" class="l_txt01">리빙</a>
+              <span class="l_txt02">20XX.XX.XX &#124; by 엘르코리아</span>
+              <a href="#" title="lovelife2" class="l_txt03">내가 사랑하는 개와 고양이</a>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="lovelife3" class="aimg">
+                <img src="./images/pc_love03.jpg" alt="lovelife3">
+              </a>
+            </div>
+
+            <div class="txt_box02">
+              <a href="#" title="여행" class="l_txt01">여행</a>
+              <span class="l_txt02">20XX.XX.XX &#124; by 엘르코리아</span>
+              <a href="#" title="lovelife3" class="l_txt03">여행자가 자연을 껴안는 방법, 아만풀로에서 보낸 일주일</a>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="lovelife4" class="aimg">
+                <img src="./images/pc_love04.jpg" alt="lovelife4">
+              </a>
+            </div>
+
+            <div class="txt_box02">
+              <a href="#" title="푸드" class="l_txt01">푸드</a>
+              <span class="l_txt02">20XX.XX.XX &#124; by 엘르코리아</span>
+              <a href="#" title="lovelife4" class="l_txt03">서순라길, 한옥 카페부터 한식 다이닝 레스토랑까지</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  <section class="cn_wrap">
+    <!-- 7. Culture -->
+    <section class="culture_wrap">
+      <h2>Culture</h2>
+      <div class="title02">
+        <h2>Culture</h2>
+        <a href="culture.html" title="컬쳐 카테고리 바로가기" class="more">더보기 <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+
+      <ul class="news letter culture_l">
+        <li>
+          <div class="img_box">
+            <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+            <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+            <div class="shadow_box"></div>
+            <a href="##" title="culture1" class="aimg">
+              <img src="./images/pc_culture01.jpg" alt="culture1">
+            </a>
+          </div>
+
+          <div class="txt_box02">
+            <a href="#" title="셀럽뉴스" class="l_txt01">셀럽뉴스</a>
+            <span class="l_txt02">20XX.XX.XX &#124; by 엘르코리아</span>
+            <a href="#" title="culture1" class="l_txt03">마에스트라가 된 이영애가 지취봉을 높게 들었다.</a>
+          </div>
+        </li>
+      </ul>
+
+      <div class="news_wrapper">
+        <ul class="news culture">
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="culture2" class="aimg">
+                <img src="./images/pc_culture02.jpg" alt="culture2">
+              </a>
+            </div>
+  
+            <div class="txt_box">
+              <a href="#" title="건강" class="n_txt01">건강</a>
+              <a href="#" title="culture2" class="n_txt02">발레부터 공예, 밤낚시까지! 스타의 취미생활</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+              <p class="n_txt04">매일의 노고와 고민을 내려놓고 흥미로운 일에 몰두하는 셀러브리티의 취미생활</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="culture3" class="aimg">
+                <img src="./images/pc_culture03.jpg" alt="culture3">
+              </a>
+            </div>
+  
+            <div class="txt_box">
+              <a href="#" title="뷰티트렌드" class="n_txt01">뷰티트렌드</a>
+              <a href="#" title="culture3" class="n_txt02">아름다움을 창조하는 남자들</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+              <p class="n_txt04">디자이너들의 발자취가 담긴 신간 아트 북이 발행 되었다. <Ralph Lauren : A Way of Living>에는 그의 삶에 대한 이상과 홈 컬렉션 디자인에 대한 내용이 쓰였다</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+
+    </section>
+
+    <!-- 7. Social -->
+    <section class="social_wrap">
+      <h2>Social</h2>
+      <div class="title02 social_title">
+        <h2>Social</h2>
+        <a href="beauty.html" title="뷰티 카테고리 바로가기" class="more">더보기 <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+
+      <div class="news_wrapper">
+        <ul class="news social">
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="social1" class="aimg">
+                <img src="./images/pc_social01.jpg" alt="social1">
+              </a>
+            </div>
+  
+            <div class="txt_box">
+              <a href="#" title="멘토" class="n_txt01">멘토</a>
+              <a href="#" title="social1" class="n_txt02">워런 버핏의 영원한 단짝, 찰리멍거가 남긴 어록</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+              <span class="n_txt04">“나는 지금껏 끊임없이 독서를 하지 않는 현명한 사람은 본 적이 없습니다. 단 한 명도.”</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="social1" class="aimg">
+                <img src="./images/pc_social02.jpg" alt="social1">
+              </a>
+            </div>
+  
+            <div class="txt_box">
+              <a href="#" title="사회" class="n_txt01">사회</a>
+              <a href="#" title="social1" class="n_txt02">생태적 전환, 그러면 무엇을 알아야 할까?</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+              <span class="n_txt04">인류를 덮진 기후 위기, 샤넬 펀드와 리움미술관의 ‘아이디어 뮤지엄’에서 답을 모색하다.</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="social3" class="aimg">
+                <img src="./images/pc_social03.jpg" alt="social3">
+              </a>
+            </div>
+  
+            <div class="txt_box">
+              <a href="#" title="커리어팁" class="n_txt01">커리어팁</a>
+              <a href="#" title="social3" class="n_txt02">Dear my blue</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+              <span class="n_txt04">나의 서늘한 불안과 공포에게, <나의 피투성이 연인>의 감독 유지영은 끊임없이 질문을 던진다.</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="social4" class="aimg">
+                <img src="./images/pc_social04.jpg" alt="social4">
+              </a>
+            </div>
+  
+            <div class="txt_box">
+              <a href="#" title="사회" class="n_txt01">사회</a>
+              <a href="#" title="social4" class="n_txt02">인간의 삶에 스며든 반려 로봇 ‘효순이’</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+              <span class="n_txt04">말벗이 되어주고 일과를 챙기는 반려로봇 ‘효순이’가 인간의 삶에 스며든 장면</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="social5" class="aimg">
+                <img src="./images/pc_social05.jpg" alt="social5">
+              </a>
+            </div>
+  
+            <div class="txt_box">
+              <a href="#" title="커리어팁" class="n_txt01">커리어팁</a>
+              <a href="#" title="social5" class="n_txt02">나의 추하고 아름다운 실패들</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+              <span class="n_txt04">정지음은  말한다. 이 실패는 온전의 나의 것이라고.</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="img_box">
+              <button id="heart"><img src="./images/ic_heart_empty.png" alt="하트아이콘" class="icon"></button>
+              <button id="share"><img src="./images/ic_share.png" alt="공유아이콘" id="share" class="icon"></button>
+              <div class="shadow_box"></div>
+              <a href="##" title="social6" class="aimg">
+                <img src="./images/pc_social06.jpg" alt="social6">
+              </a>
+            </div>
+  
+            <div class="txt_box">
+              <a href="#" title="멘토" class="n_txt01">멘토</a>
+              <a href="#" title="social6" class="n_txt02">자신을 아랑가는 시간 끝에 마주한 진짜 ‘나’</a>
+              <span class="n_txt03">20XX.XX.XX &#124; by 엘르코리아</span>
+              <span class="n_txt04">“괜찮을 거야”라는 말이 덧없이 느껴질 때 배우 배해선이 건내는 위로</span>
+            </div>
+          </li>
+        </ul>
+      </div>      
+
+    </section>
+  </section>
+  </div>
+</main>
+
+
+<!-- ------- -->
+<!-- 푸터영역 -->
+<footer>
+  <div class="footer_wrapper">
+    <div class="f_left">
+      <h2><a href="index.html" title="메인메뉴 바로가기"><img src="./images/main_logo_white.png" alt="하단 로고 이미지"></a></h2>
+    </div>
+
+    <div class="f_right">
+      <div class="sns">
+        <ul>
+          <li><a href="#" title="엘르 페이스북 바로가기"><img src="./images/ic_sns_facebook.png" alt="icon_facebook"></a></li>
+          <li><a href="#" title="엘르 트위터 바로가기"><img src="./images/ic_sns_twitter.png" alt="twitter"></a></li>
+          <li><a href="#" title="엘르 인스타그램 바로가기"><img src="./images/ic_sns_insta.png" alt="icon_insta"></a></li>
+          <li><a href="#" title="엘르 유튜브 바로가기"><img src="./images/ic_sns_youtube.png" alt="icon_youtube"></a></li>
+        </ul>
+      </div>
+
+      <div class="f_lnb">
+        <ul>
+          <li><a href="#" title="정기구독">정기구독</a></li>
+          <li><a href="#" title="회사소개">회사소개</a></li>
+          <li><a href="#" title="개인정보 처리방침">개인정보 처리방침</a></li>
+          <li><a href="#" title="광고/제휴">광고/제휴</a></li>
+          <li><a href="#" title="사이트 맵">사이트 맵</a></li>
+        </ul>
+      </div>
+
+      <address>
+        <p>엘르 코리아<br>
+          서울시 00구 00대로 000(00동)<br>
+          대표자 : 000 &#124; 사업자등록번호 : 000-00-00000 &#124;  통신판매업신고 : 제 0000-서울00-00000호<br>
+          이메일 : elle.korea@elle.co.kr<br>
+          <span class="f_copy">&#169;2024 Elle Korea. All Rights Reserved.</span>
+        </p>
+      </address>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // 메뉴 버튼 클릭시 메뉴 나오게하기
+  //변수 선언
+  let m_btn = document.querySelector('.menu_btn');
+  let c_btn = document.querySelector('.c_btn');
+  let lnb = document.querySelector('.lnb_wrap');
+  const logo = document.querySelector('h1 > a');
+
+  //pc
+
+
+  //모바일
+  m_btn.addEventListener('click',function(){
+    lnb.style.display = 'block';
+    logo.style.backgroundImage = "url('../images/m_logo_white.png')"
+  });
+
+  c_btn.addEventListener('click',function(){
+    lnb.style.display = 'none';
+    logo.style.backgroundImage = "url('../images/m_logo_black.png')"
+  });
+
+
+  // .header_mid_left
+  $(document).ready(function(){
+
+    $(window).resize(function(){
+      w_width = $(window).innderWidth();
+      console.log(w_width);
+
+      //pc
+      if(w_width>=1025){
+
+
+
+
+      //tablet
+      }else if(w_width>=768){
+
+
+
+      //mobile
+      }else{
+
+      }
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  });
+</script>
+</body>
+<!-- 
+//   // 찜하기 버튼 
+
+// // 변수선언
+// const h = document.getElementById('heart');
+
+// // 클릭시 이미지 src 주소 바꾸기 > 채워진 하트로 
+// h.addEventListener('click',function(){
+//   // alert('하트');
+//   document.querySelector('#heart > img').src = './images/ic_heart_full.png';
+// }); -->
